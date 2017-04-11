@@ -35,7 +35,7 @@ li a:visited {
 /* Home Page */
 h1 {
   font-weight: lighter;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   color: white;
   text-align: center;
   text-shadow: 5px 0px #000000;
@@ -45,6 +45,9 @@ h1 {
 
 /* About*/
 .aboutMe {
+  margin: auto;
+  text-align: center;
+  width: 500px;
   color: white; }
 
 /* Resume */

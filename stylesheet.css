@@ -38,7 +38,7 @@ li a:visited{color:white;}
 /* Home Page */
 h1 {
 	font-weight: lighter;
-letter-spacing: 10px;
+letter-spacing: 20px;
 color:white;
 text-align: center;
 text-shadow: 5px 0px #000000;
@@ -46,6 +46,9 @@ font-size: 72px; position: relative; margin-top: 200px;}
 
 /* About*/
 .aboutMe {
+margin:auto;
+text-align: center;
+width:500px;
 color:white;
 }
 
