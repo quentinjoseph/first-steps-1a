@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+color:white;
+font-family: sans-serif;
+background-image: url("images/background.jpg");
+background-attachment: fixed;
+background-position: center;
+}
+nav {
+font-family: sans-serif; 
+color: white; 
+background-color: rgba(0, 0, 0, .7);
+border-radius: 10px;
+border:solid 2px black;
+border-spacing: 10px;
+padding: .5%
+}
+
+#SiteNav li {
+display:inline; 
+padding:2%;
+}
+
+#SiteNav li:hover {
+text-decoration: underline;
+}
+
+#SiteNav li:active{
+background-color: white;
+border-radius: 10px;
+}
+
+li a {
+text-decoration: none;
+}
+
+li a:visited{color:white;}
+/* Home Page */
+h1 {
+	font-weight: lighter;
+letter-spacing: 10px;
+color:white;
+text-align: center;
+text-shadow: 5px 0px #000000;
+font-size: 72px; position: relative; margin-top: 200px;}
+
+/* About*/
+.aboutMe {
+color:white;
+}
+
+/* Resume */
+.resumeStyle {font-family: sans-serif; color:white;}
+.resume-header{ line-height: 4px; }
+.green {color:#649949;}
+.line {padding:0;height: 0;border:solid .1em black;}
+.categories{float:left;}
+.details{line-height: 5px;}
+.list{line-height: 18px; width: 70%;}
