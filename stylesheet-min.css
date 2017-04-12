@@ -1,5 +1,6 @@
 /* General Styling */
 body {
+  width: 100%;
   color: white;
   font-family: sans-serif;
   background-image: url("images/background.jpg");
@@ -33,6 +34,24 @@ li a:visited {
   color: white; }
 
 /* Home Page */
+h1 a:visited {
+  color: white; }
+
+h1 a {
+  text-decoration: none; }
+
+@-webkit-keyframes smooth {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+
+@keyframes smooth {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+
 h1 {
   font-weight: lighter;
   letter-spacing: 20px;
@@ -41,13 +60,29 @@ h1 {
   text-shadow: 5px 0px #000000;
   font-size: 72px;
   position: relative;
-  margin-top: 200px; }
+  margin-top: 200px;
+  -webkit-animation-name: smooth;
+          animation-name: smooth;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s; }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 44px; } }
+
+@media (max-width: 610px) {
+  h1 {
+    font-size: 24px; } }
+
+@media (max-width: 465px) {
+  h1 {
+    font-size: 16px; } }
 
 /* About*/
 .aboutMe {
   margin: auto;
   text-align: center;
-  width: 500px;
+  width: 80%;
   color: white; }
 
 /* Resume */
@@ -67,7 +102,7 @@ h1 {
   border: solid .1em black; }
 
 .categories {
-  float: left; }
+  text-align: left; }
 
 .details {
   line-height: 5px; }
@@ -75,3 +110,58 @@ h1 {
 .list {
   line-height: 18px;
   width: 70%; }
+
+/* Portfolio */
+#PortTitle {
+  color: white;
+  padding: 15%;
+  margin: 0 auto; }
+
+.emoji {
+  height: 250px;
+  width: 250px; }
+
+.emoji:hover {
+  border: solid 2px white;
+  border-radius: 125px; }
+
+.caption {
+  color: white;
+  text-decoration: none;
+  margin: auto; }
+
+.liner {
+  width: 100%;
+  text-align: center; }
+
+@media (max-width: 740px) {
+  .emoji {
+    height: 200px;
+    width: 200px; } }
+
+@media (max-width: 600px) {
+  .emoji {
+    height: 150px;
+    width: 150px; } }
+
+@media (max-width: 440px) {
+  .emoji {
+    height: 100px;
+    width: 100px; } }
+
+@media (max-width: 300px) {
+  .emoji {
+    height: 50px;
+    width: 50px; } }
+
+@media (max-width: 200px) {
+  .caption {
+    font-size: 10px; } }
+
+/* positioning */
+.sqr {
+  width: 30%;
+  display: inline-block; }
+
+.linedUp {
+  text-align: center; }

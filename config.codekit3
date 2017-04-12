@@ -15,6 +15,22 @@
 		"oAP": "\/about.html",
 		"oF": 0
 		},
+	"\/Bootstrap version\/portfolio(bootstrap).html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Bootstrap version\/portfolio(bootstrap).html",
+		"oF": 0
+		},
+	"\/Bootstrap version\/stylesheet(bootstrap).css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Bootstrap version\/stylesheet(bootstrap)-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/images\/background.jpg": {
 		"ft": 16384,
 		"iS": 99226,
@@ -25,6 +41,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/cheese.png": {
+		"ft": 32768,
+		"iS": 146976,
+		"oA": 0,
+		"oAP": "\/images\/cheese.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/dotAndlines.jpg": {
 		"ft": 16384,
 		"iS": 42518,
@@ -33,6 +60,94 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/happytears.png": {
+		"ft": 32768,
+		"iS": 272755,
+		"oA": 0,
+		"oAP": "\/images\/happytears.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Hugging.png": {
+		"ft": 32768,
+		"iS": 137926,
+		"oA": 0,
+		"oAP": "\/images\/Hugging.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sly.png": {
+		"ft": 32768,
+		"iS": 140160,
+		"oA": 0,
+		"oAP": "\/images\/sly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/smiles.png": {
+		"ft": 32768,
+		"iS": 498595,
+		"oA": 0,
+		"oAP": "\/images\/smiles.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sunglasses.png": {
+		"ft": 32768,
+		"iS": 171306,
+		"oA": 0,
+		"oAP": "\/images\/sunglasses.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Thinking.png": {
+		"ft": 32768,
+		"iS": 125121,
+		"oA": 0,
+		"oAP": "\/images\/Thinking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Unamused.png": {
+		"ft": 32768,
+		"iS": 107171,
+		"oA": 0,
+		"oAP": "\/images\/Unamused.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/upsidedown.png": {
+		"ft": 32768,
+		"iS": 557375,
+		"oA": 0,
+		"oAP": "\/images\/upsidedown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/index.html": {
