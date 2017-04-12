@@ -134,17 +134,17 @@ h1 {
   width: 100%;
   text-align: center; }
 
-@media (max-width: 740px) {
+@media (max-width: 992px) {
   .emoji {
     height: 200px;
     width: 200px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .emoji {
     height: 150px;
     width: 150px; } }
 
-@media (max-width: 440px) {
+@media (max-width: 475px) {
   .emoji {
     height: 100px;
     width: 100px; } }
