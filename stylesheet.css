@@ -8,6 +8,7 @@ background-image: url("images/background.jpg");
 background-attachment: fixed;
 background-position: center;
 }
+/* Nav Bar*/
 nav {
 font-family: sans-serif; 
 color: white; 
@@ -34,15 +35,19 @@ border-radius: 10px;
 
 li a {
 text-decoration: none;
+color:white;
 }
 
 li a:visited{color:white;}
 /* Home Page */
 h1 a:visited{color:white;}
 h1 a{text-decoration: none;}
+
 @keyframes smooth{
 	from {opacity:0;}
 	to {opacity: 1.0;}
+	from {font-size:1px;}
+	to {font-size:72px;}
 }
 
 h1 {

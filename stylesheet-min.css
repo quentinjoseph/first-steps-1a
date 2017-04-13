@@ -7,6 +7,7 @@ body {
   background-attachment: fixed;
   background-position: center; }
 
+/* Nav Bar*/
 nav {
   font-family: sans-serif;
   color: white;
@@ -28,7 +29,8 @@ nav {
   border-radius: 10px; }
 
 li a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 li a:visited {
   color: white; }
@@ -44,13 +46,21 @@ h1 a {
   from {
     opacity: 0; }
   to {
-    opacity: 1.0; } }
+    opacity: 1.0; }
+  from {
+    font-size: 1px; }
+  to {
+    font-size: 72px; } }
 
 @keyframes smooth {
   from {
     opacity: 0; }
   to {
-    opacity: 1.0; } }
+    opacity: 1.0; }
+  from {
+    font-size: 1px; }
+  to {
+    font-size: 72px; } }
 
 h1 {
   font-weight: lighter;
